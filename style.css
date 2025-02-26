@@ -117,22 +117,26 @@ img {
 
 .block3 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
     background-color: #e5e7eb;
-    color: #1f2937;
-    padding: 52px;
+    padding: 50px;
 }
 
-.block3main {
+.container3 {
     max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.quote {
     font-size: 36px;
     font-style: italic;
 }
 
-.block3sub {
+.author {
+    font-size: 18px;
     font-weight: bold;
-    align-self: flex-end;
 }
 
 /*block4 styling*/
